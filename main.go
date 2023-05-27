@@ -1,10 +1,10 @@
 package main
 
-
 import (
-    "net/http"
+	"github.com/sai-sy/vrn/controllers"
+	"github.com/sai-sy/vrn/models"
 
-    "github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
