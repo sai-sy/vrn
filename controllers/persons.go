@@ -10,4 +10,4 @@ import (
 func findPerson(){}
 func createPerson(){}
 func updatePerson(){}
-func deletePerson(){}
+func findPerson(){}
