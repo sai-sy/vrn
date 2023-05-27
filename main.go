@@ -14,11 +14,11 @@ func main() {
 	models.ConnectDatabase()
 
 	// Routes
-	r.GET("/books", controllers.FindBooks)
-	r.GET("/books/:id", controllers.FindBook)
-	r.POST("/books", controllers.CreateBook)
-	r.PATCH("/books/:id", controllers.UpdateBook)
-	r.DELETE("/books/:id", controllers.DeleteBook)
+	r.GET("/persons", controllers.Find)
+	r.GET("/persons/:id", controllers.FindBook)
+	r.POST("/persons", controllers.CreateBook)
+	r.PATCH("/persons/:id", controllers.UpdateBook)
+	r.DELETE("/persons/:id", controllers.DeleteBook)
 
 	// Run the server
 	r.Run()
